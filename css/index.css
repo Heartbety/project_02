@@ -1,0 +1,413 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+html,
+body {
+  height: 100%;
+}
+.hd {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.hd .header {
+  width: 100%;
+  background-color: #ababab;
+  display: flex;
+}
+.hd .header .logo {
+  padding-top: 0.53333333rem;
+  padding-left: 0.45333333rem;
+  padding-bottom: 0.45333333rem;
+}
+.hd .header .logo img {
+  height: 1.17333333rem;
+  width: 2.34666667rem;
+}
+.hd .header .txt {
+  padding-top: 0.48rem;
+  padding-bottom: 0.48rem;
+  padding-left: 0.32rem;
+  color: #fff;
+}
+.hd .header .txt img {
+  width: 0.58666667rem;
+  height: 0.37333333rem;
+}
+.hd .header .txt .jian {
+  width: 0.24rem;
+  height: 0.24rem;
+}
+.hd .header .txt i {
+  margin-left: 0.13333333rem;
+  font-style: normal;
+  font-size: 0.32rem;
+  font-family: "MicrosoftYaHei-Bold";
+}
+.hd .header .txt .t {
+  font-size: 0.29333333rem;
+}
+.hd .ann {
+  height: 0.53333333rem;
+  width: 100%;
+  background-color: #bebebe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hd .ann img {
+  height: 0.24rem;
+  width: 0.42666667rem;
+  margin-right: 0.10666667rem;
+}
+.hd .ann p {
+  font-size: 0.32rem;
+  color: #fff;
+}
+.hd .list {
+  height: 0.8rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 0.02666667rem solid #e5e6e7;
+  background-color: #fff;
+}
+.hd .list div {
+  margin-top: 0.24rem;
+  font-size: 0.29333333rem;
+  margin-bottom: 0.29333333rem;
+  text-align: center;
+}
+.hd .list div a {
+  display: block;
+  height: 0.29333333rem;
+  text-decoration: none;
+  color: #4e555d;
+}
+.hd .list div .this {
+  color: #f01515;
+}
+.hd .index2 {
+  background-color: #fff;
+}
+.hd .index2 .comment {
+  display: flex;
+  height: 2.18666667rem;
+  border-bottom: 1px solid #e5e6e7;
+}
+.hd .index2 .comment .left {
+  padding: 0.37333333rem 0.66666667rem;
+  width: 2.13333333rem;
+  text-align: center;
+  height: 1.41333333rem;
+  border-right: #e5e6e7 0.02666667rem solid;
+}
+.hd .index2 .comment .left .one {
+  color: #ff9902;
+  font-size: 0.48rem;
+}
+.hd .index2 .comment .left .two {
+  color: #07111b;
+  font-size: 0.32rem;
+}
+.hd .index2 .comment .right {
+  font-size: 0.32rem;
+  padding: 0.37333333rem 0.45333333rem 0.42666667rem;
+}
+.hd .index2 .comment .right img {
+  height: 0.26666667rem;
+  width: 0.26666667rem;
+}
+.hd .index2 .comment .right .one {
+  color: #07111b;
+  line-height: 0.56rem;
+}
+.hd .index2 .comment .right .two {
+  color: #ff9902;
+}
+.hd .index2 .comment .right .three {
+  color: #949aa0;
+}
+.hd .index2 .all {
+  display: flex;
+  border-bottom: 1px solid #e5e6e7;
+  padding: 0.45333333rem 0.34666667rem;
+}
+.hd .index2 .all .txt {
+  height: 0.45333333rem;
+  width: 1.17333333rem;
+  font-size: 0.32rem;
+  text-align: center;
+}
+.hd .index2 .all .one {
+  background-color: #03a0dc;
+}
+.hd .index2 .all .two {
+  background-color: #ccecf8;
+  margin-left: 0.26666667rem;
+}
+.hd .index2 .all .three {
+  background-color: #eaebec;
+  margin-left: 0.26666667rem;
+}
+.hd .index2 .yes {
+  padding: 0.32rem;
+  border-bottom: 1px solid #e5e6e7;
+}
+.hd .index2 .yes .txt {
+  color: #93999f;
+  font-size: 0.32rem;
+}
+.hd .index2 .yes .txt img {
+  height: 0.4rem;
+  width: 0.4rem;
+  vertical-align: middle;
+}
+.hd .index3 {
+  background-color: #fff;
+}
+.hd .index3 .collect {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.02666667rem solid #e5e6e7;
+}
+.hd .index3 .collect .txt {
+  padding: 0.26666667rem 0 0.4rem 0.8rem;
+  color: #5f656d;
+  font-size: 0.29333333rem;
+}
+.hd .index3 .collect .txt p {
+  color: #07111b;
+}
+.hd .index3 .collect .txt img {
+  height: 0.29333333rem;
+  width: 0.29333333rem;
+}
+.hd .index3 .collect .love {
+  padding: 0.34666667rem 0.8rem 0.34666667rem 0;
+  text-align: center;
+}
+.hd .index3 .collect .love img {
+  width: 0.42666667rem;
+  height: 0.37333333rem;
+}
+.hd .index3 .collect .love p {
+  color: #2b3034;
+  font-size: 0.29333333rem;
+}
+.hd .index3 .class {
+  padding: 0.24rem 0.66666667rem;
+  display: flex;
+  justify-content: space-around;
+  color: #93999f;
+  font-size: 0.48rem;
+  line-height: 0.56rem;
+}
+.hd .index3 .class p {
+  color: #07111b;
+  font-size: 0.45333333rem;
+}
+.hd .index3 .class .mid {
+  padding: 0 0.53333333rem;
+  border-left: 1px solid #e5e6e7;
+  border-right: 1px solid #e5e6e7;
+}
+.hd .index3 .active {
+  border-bottom: 0.02666667rem solid #e5e6e7;
+}
+.hd .index3 .active .txt {
+  padding-left: 0.37333333rem;
+  padding-top: 0.58666667rem;
+  font-size: 0.32rem;
+  line-height: 0.56rem;
+}
+.hd .index3 .active .txt p {
+  color: #f01515;
+}
+.hd .index3 .active .lis {
+  padding: 0 0.53333333rem 0.53333333rem;
+  font-size: 0.32rem;
+  line-height: 0.74666667rem;
+}
+.hd .index3 .active .lis a {
+  color: black;
+}
+.hd .index3 .active .lis img {
+  height: 0.32rem;
+  width: 0.32rem;
+  vertical-align: middle;
+}
+.hd .index3 .ke .txt {
+  padding-left: 0.4rem;
+  font-size: 0.32rem;
+  line-height: 0.74666667rem;
+}
+.hd .index3 .ke .tu {
+  display: flex;
+  justify-content: space-evenly;
+}
+.hd .index3 .ke .tu img {
+  width: 2.4rem;
+  height: 1.70666667rem;
+}
+.hd .index3 .inf {
+  padding-top: 0.26666667rem;
+  padding-left: 0.37333333rem;
+  font-size: 0.32rem;
+  line-height: 0.74666667rem;
+}
+.bottom {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+}
+.bottom a {
+  display: block;
+  height: 0.96rem;
+}
+.bottom a img {
+  width: 5.01333333rem;
+  height: 0.96rem;
+}
+.main {
+  padding-top: 3.52rem;
+  padding-bottom: 0.96rem;
+  display: flex;
+  height: 100%;
+  box-sizing: border-box;
+}
+.main i {
+  font-style: normal;
+}
+.main .zuo {
+  overflow-y: scroll;
+  width: 2.8rem;
+}
+.main .zuo li {
+  padding-left: 0.26666667rem;
+  width: 2.42666667rem;
+  height: 1.06666667rem;
+  border-bottom: 0.05333333rem solid #e5e6e7;
+}
+.main .zuo a {
+  line-height: 1.06666667rem;
+  font-size: 0.32rem;
+  color: #535353;
+}
+.main .you {
+  overflow-y: scroll;
+  padding-left: 0.32rem;
+  flex: 1;
+}
+.main .you .up .txt {
+  padding-top: 0.13333333rem;
+  font-size: 0.32rem;
+  color: #93999f;
+}
+.main .you .class {
+  display: flex;
+  padding-top: 0.45333333rem;
+}
+.main .you .class .tu img {
+  height: 1.38666667rem;
+  width: 1.38666667rem;
+}
+.main .you .class .join {
+  padding-left: 0.58666667rem;
+  font-size: 0.32rem;
+}
+.main .you .class .join .one {
+  margin-bottom: 0.13333333rem;
+  color: #222b34;
+}
+.main .you .class .join .two {
+  margin-bottom: 0.13333333rem;
+  color: #93999f;
+}
+.main .you .class .join a {
+  display: block;
+  width: 2.4rem;
+  height: 0.4rem;
+  background-color: #0089ff;
+  color: #fff;
+  line-height: 0.4rem;
+  text-align: center;
+}
+.main .you .down {
+  padding-top: 0.26666667rem;
+}
+.main .you .down .title {
+  font-size: 0.32rem;
+  color: #93999f;
+}
+.main2 {
+  padding-top: 8.26666667rem;
+  padding-bottom: 0.96rem;
+  height: 100%;
+  box-sizing: border-box;
+}
+.main2 .com {
+  overflow-y: scroll;
+  height: 100%;
+}
+.main2 .com .alone {
+  border-bottom: 1px solid #e5e6e7;
+  padding: 0.37333333rem 0.32rem 0.72rem;
+}
+.main2 .com .alone .up {
+  display: flex;
+  justify-content: space-between;
+}
+.main2 .com .alone .up .user {
+  display: flex;
+}
+.main2 .com .alone .up .user .tu img {
+  height: 0.56rem;
+  width: 0.56rem;
+}
+.main2 .com .alone .up .user .txt {
+  margin-left: 0.13333333rem;
+  color: #93999f;
+  font-size: 0.32rem;
+}
+.main2 .com .alone .up .user .txt img {
+  height: 0.18666667rem;
+  width: 0.18666667rem;
+}
+.main2 .com .alone .up .time {
+  color: #93999f;
+  font-size: 0.32rem;
+}
+.main2 .com .alone .down {
+  margin-top: 0.50666667rem;
+  margin-left: 0.48rem;
+}
+.main2 .com .alone .down .txt {
+  width: 8.02666667rem;
+  color: #07111b;
+  font-size: 0.32rem;
+  line-height: 0.42666667rem;
+}
+.mian3 {
+  padding-top: 15.73333333rem;
+  padding-left: 0.37333333rem;
+  padding-right: 0.37333333rem;
+  padding-bottom: 0.96rem;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+.mian3 li {
+  border-bottom: 0.02666667rem solid #e5e6e7;
+  border-top: 0.02666667rem solid #e5e6e7;
+  font-size: 0.32rem;
+  line-height: 0.74666667rem;
+}
